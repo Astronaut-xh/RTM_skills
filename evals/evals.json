@@ -1,0 +1,23 @@
+{
+  "skill_name": "RTM_FL2TP_skills",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "根据源文件填写RTM模板。源文件：/home/xinghe/skillcreator/TBUS_LRS_v1.1.docx（LRS文档）、/home/xinghe/skillcreator/TBUS Spec.docx（Design SPEC）、/home/xinghe/skillcreator/DR_FL.xlsx（已有DR-FL分解参考）。模板文件：/home/xinghe/skillcreator/RTM_AI探索_原版.xlsx。请填写DR-FL sheet和FL-TP sheet，输出到/home/xinghe/skillcreator/RTM_填写完成.xlsx",
+      "expected_output": "生成填写完成的RTM模板Excel文件，包含DR-FL和FL-TP两个Sheet的数据。DR-FL应包含Feature描述，FL-TP应包含具体的TP描述（条件、激励、期望）",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我做需求分解。我有Design SPEC文档(/home/xinghe/skillcreator/TBUS Spec.docx)和LRS文档(/home/xinghe/skillcreator/TBUS_LRS_v1.1.docx)，需要将需求分解到Feature List和Test Point，模板文件是/home/xinghe/skillcreator/RTM_AI探索_原版.xlsx",
+      "expected_output": "理解用户需求，分析文档，填写RTM模板的DR-FL和FL-TP两个Sheet，输出填写完成的Excel文件",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "FL-TP分解任务：根据已有的DR-FL表格(/home/xinghe/skillcreator/DR_FL.xlsx)和Design SPEC(/home/xinghe/skillcreator/TBUS Spec.docx)，填写模板(/home/xinghe/skillcreator/RTM_AI探索_原版.xlsx)中的FL-TP sheet",
+      "expected_output": "专注于FL-TP sheet的填写，根据DR-FL中的Feature描述生成具体的Test Point描述",
+      "files": []
+    }
+  ]
+}
